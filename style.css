@@ -1,0 +1,188 @@
+body{
+margin:0px;
+padding:0px;
+background-color:black;
+font-size:20px; 
+color:white;
+}	
+
+ul{
+list-style-type: none;
+padding:0px;
+margin:0px;
+position:absolute;
+}
+ul li{
+float: right;
+ margin-top: 20px;	
+}
+li a{
+	display: block;
+	width: 170px;
+	text-align: center;
+	border-radius:20px; 
+	padding:10px; 
+	text-decoration:none;
+	color: white;
+	font-weight: lighter;
+}
+li a:hover{
+	background-color: darkred;
+	border-radius:20px; 
+    
+}
+li ul{
+	display:none;
+	
+	border-radius: 20px;
+}
+ul li ul li{
+	float: none;
+}		
+li:hover ul{
+	display: block;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.d1{
+	
+	background-color:#334139;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 250px;
+	left: 100px;
+	border-radius: 20px;
+}
+.d1 img{
+	z-index: 22;
+    top:100px;
+	position:absolute;
+    width:300px;
+	height: 200px;
+	border-radius: 20px;
+	transition: top 2s;
+}
+.d2{
+	background-color:#334139;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	border-radius: 20px;
+}
+.d2 img{
+	z-index: 22;
+    top:100px;
+	position:absolute;
+    width:300px;
+	height: 200px;
+	border-radius: 20px;
+	transition: top 2s;
+}
+.d3{
+	background-color:#334139;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 250px;
+	left: 900px;
+	border-radius: 20px;
+}
+.d3 img{
+	z-index: 22;
+    top:100px;
+	position:absolute;
+    width:300px;
+	height: 200px;
+	border-radius: 20px;	
+	transition: top 2s;
+}
+
+.g1{
+position: absolute;
+top:220px;
+left: 60px;
+}
+.g2{
+position: absolute;
+top:220px;
+left: 60px;
+}
+.g3{
+position: absolute;
+top:220px;
+left: 60px;
+}
+.d1:hover img{
+	top: 0px;
+	
+	cursor:pointer;
+}
+.d2:hover img{
+	top: 0px;
+
+	cursor:pointer;
+}
+.d3:hover img{
+	top: 0px;
+	
+	cursor:pointer;
+}
+@keyframes fahd{
+	from{
+		top:100px;
+	}
+	to{top: 0px;}
+}
+/*
+ .s0:hover{
+    animation-name: fahd;
+	 animation-duration:2s;
+	 animation-direction:alternate;
+}
+.s1:hover{
+	animation-name: fahd;
+	 animation-duration:2s;
+	 animation-direction:alternate;
+}
+.s2:hover{
+	background-color: darkgoldenrod;
+	transition: background-color 3s;
+	 
+}
+@keyframes fahd{
+	from{
+		width:200px; 
+	 background-color: darkred;
+	}	
+	to{
+		width:210px; 
+	 background-color: darkgoldenrod;
+	}	
+	
+}
+@keyframes ali{
+	0%{
+	top: 300px;
+	left: 600px;	
+	}
+	25%{
+	top: 500px;
+	left: 600px;}
+	50%{
+	top: 500px;
+	left: 800px;	
+	}
+	75%{
+	top: 300px;
+	left: 800px;	
+	}
+	100%{
+	top: 300px;
+	left: 600px;
+	}
+}*/
